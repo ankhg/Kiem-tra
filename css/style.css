@@ -1,0 +1,16 @@
+.blockquote{
+	position: relative;
+}
+.blockquote:before{
+	position: absolute;
+	font-family: serif;
+	content: "\201C";
+	font-size: 3rem;
+	top: -1rem;
+	left: 0;
+	color: white;
+	font-weight: bold;
+}
+.blockquote p{
+	padding-left: 2rem;
+}

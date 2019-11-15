@@ -1,0 +1,39 @@
+.ima-blockquote{
+	width: 100%;
+	height: 200px;
+}
+.ima-blockquote img{
+	width: 100%;
+	height: 100%;
+}
+/*chinh lai va sua chieu cao cua anh tai man hinh col-md*/
+@media screen and (max-width: 992px){
+	.ima-blockquote{
+		height: 100px;
+	}
+}
+/*chinh lai va sau chieu cao cua anh tai man hinh col-sm*/
+@media screen and (max-width: 576px){
+	.ima-blockquote{
+		width: 100%;
+		height: 100px;
+	}
+}
+.blockquote{
+	position: relative;
+	padding-left: 2rem;
+}
+.blockquote::before{
+	position: absolute;
+	font-family: serif;
+	content: "\201C";
+	font-size: 3rem;
+	top: -1rem;
+	left: 0;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+}
+.blockquote p{
+	padding-left: 2rem;
+}
